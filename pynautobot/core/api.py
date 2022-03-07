@@ -24,6 +24,7 @@ from pynautobot.core.app import App, PluginsApp
 from pynautobot.core.graphql import GraphQLQuery
 from pynautobot.core.jobs import JobsApp
 
+
 class Api(object):
     """The API object is the point of entry to pynautobot.
 

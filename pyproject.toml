@@ -24,7 +24,7 @@ requests = "^2.20.0"
 Sphinx = "^3.5.1"
 
 [tool.poetry.dev-dependencies]
-pytest = {version="^5.4.1", python="^3.6"}
+pytest = {version="^6.2.5", python="^3.6"}
 pytest-docker = {version="^0.10.1", python="^3.6"}
 requests_mock = "^1.7.0"
 pyyaml = "^5.3"

@@ -22,7 +22,7 @@ import requests
 from pynautobot.core.query import Request
 from pynautobot.core.app import App, PluginsApp
 from pynautobot.core.graphql import GraphQLQuery
-
+from pynautobot.core.jobs import JobsApp
 
 class Api(object):
     """The API object is the point of entry to pynautobot.
@@ -84,6 +84,7 @@ class Api(object):
         self.users = App(self, "users")
         self.plugins = PluginsApp(self)
         self.graphql = GraphQLQuery(self)
+        self.jobs = JobsApp(self)
 
     @property
     def version(self):
